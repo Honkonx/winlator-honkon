@@ -15,7 +15,7 @@ tener presente que VirGL es universal y funciona en cualquier dispositivo.
 
 tener presente que VirGL usa la api gráfica OpenGL para el renderizado.
 
-tener presente que VriGL en winlator esta limitado a DirectX 9c,esto debibo a varios factores.
+tener presente que VirGL en winlator esta limitado a DirectX 9c,esto debibo a varios factores.
 
 recordatorio que no todos los juegos pueden ser ejecutados en winlator y menos si se usa VirGL y wined3d.
 
