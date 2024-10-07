@@ -9,7 +9,7 @@ Winlator is an Android application that lets you to run Windows (x86_64) applica
 
 # Aclaración
 
-Winlator-Honkon es un fork modificado para VirGL,no contenido DXVK,Turnip,VKD3D o zink.
+Winlator-Honkon es un fork modificado para VirGL,el contenido para adreno DXVK,Turnip,VKD3D y zink fue eliminado.
 
 tener presente que VirGL es universal y funciona en cualquier dispositivo.
 
