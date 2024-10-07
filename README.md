@@ -6,6 +6,20 @@
 
 Winlator is an Android application that lets you to run Windows (x86_64) applications with Wine and Box86/Box64.
 
+
+# Aclaración
+
+Winlator-Honkon es un fork modificado para VirGL,no contenido DXVK,Turnip,VKD3D o zink.
+
+tener presente que VirGL es universal y funciona en cualquier dispositivo.
+
+tener presente que VirGL usa la api gráfica OpenGL para el renderizado.
+
+tener presente que VriGL en winlator esta limitado a DirectX 9c,esto debibo a varios factores.
+
+recordatorio que no todos los juegos pueden ser ejecutados en winlator y menos si se usa VirGL y wined3d.
+
+
 # Installation
 
 1. Download and install the APK (Winlator_8.0.apk) from [GitHub Releases](https://github.com/brunodev85/winlator/releases)
