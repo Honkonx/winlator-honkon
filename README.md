@@ -26,6 +26,7 @@ recordatorio que no todos los juegos pueden ser ejecutados en winlator y menos s
 
 2. descargar apk mod-honkon desde aqui
   .[GitHub Releases].
+   (https://github.com/Honkonx/winlator-honkon/releases).
 
 4. Inicie la aplicación y espere a que finalice el proceso de instalación.
 
