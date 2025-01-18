@@ -1,5 +1,5 @@
 dxvk-1.4.2.tzst
-dxvk-1.10.vortek.tzst
+dxvk-1.9.tzst
 dxvk-1.10.3.0.tzst
 dxvk-1.7.3.tzst
 dxvk-2.2.4.tzst
