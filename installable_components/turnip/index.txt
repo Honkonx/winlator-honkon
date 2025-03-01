@@ -8,5 +8,5 @@ turnip-24.3.10.tzst
 turnip-23.3.08.tzst
 turnip-24.1.08.tzst
 turnip-24.1.09.tzst
-turnip-24.2.0.tzst
+turnip-24.2.08.tzst
 turnip-24.3.08.tzst
