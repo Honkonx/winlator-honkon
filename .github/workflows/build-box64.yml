@@ -41,19 +41,12 @@ jobs:
         echo "Versión de Box64 a usar: $BOX64_REF"
 
     - name: Clonar la versión especificada de Box64
-      run: |
-        git clone https://github.com/ptitSeb/box64
-        cd box64
-        
-        # Hacer checkout de la versión especificada
-        echo "Haciendo checkout de la versión: $BOX64_REF"
-        git checkout $BOX64_REF
-        
-        # Si es una rama, traer los últimos cambios
-        if git show-ref --verify --quiet refs/heads/$BOX64_REF; then
-          echo "Checkout de la rama $BOX64_REF, trayendo últimos cambios"
-          git pull origin $BOX64_REF
-        fi
+      uses: actions/checkout@v4
+      with:
+        repository: ptitSeb/box64
+        path: box64 # Clona el repo en un subdirectorio 'box64'
+        ref: ${{ env.BOX64_REF }} # Usa la versión de la variable de entorno
+        fetch-depth: 0 # Descarga todo el historial, etiquetas y ramas
 
     - name: Obtener información de versión y fecha
       id: version_info
@@ -151,3 +144,4 @@ jobs:
         echo "Etiqueta de Release: $RELEASE_TAG"
         echo "Versión de compilación: $BOX64_VERSION"
         echo "Commit: $COMMIT_HASH"
+        
